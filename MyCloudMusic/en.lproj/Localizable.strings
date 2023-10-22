@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  国际化
+
+  Created by yw.hao on 2023/10/22.
+  
+*/
+//网络相关
+ErrorNetworkUnknownHost = "Server not found";
+

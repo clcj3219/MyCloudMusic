@@ -1,16 +1,24 @@
 PODS:
+  - DynamicColor (5.0.1)
+  - R.swift (7.3.2)
   - TangramKit (1.4.2)
 
 DEPENDENCIES:
+  - DynamicColor
+  - R.swift
   - TangramKit
 
 SPEC REPOS:
   trunk:
+    - DynamicColor
+    - R.swift
     - TangramKit
 
 SPEC CHECKSUMS:
+  DynamicColor: d049834ef86d8ecf150b0ca1ebe54ee733a0ec22
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   TangramKit: aad3ab8f9617418c9da96d59cddd71134ae8af83
 
-PODFILE CHECKSUM: 87496fba3f4ea5d843b5f1d700b48a77b58e428c
+PODFILE CHECKSUM: 425772572c680df58a117513294932f4c7a90739
 
 COCOAPODS: 1.11.2

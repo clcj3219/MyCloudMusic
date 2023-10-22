@@ -14,6 +14,16 @@
 		392D2D2D2AE5101400C50D44 /* MyCloudMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D2C2AE5101400C50D44 /* MyCloudMusicUITests.swift */; };
 		392D2D2F2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D2E2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift */; };
 		392D2D3F2AE516B000C50D44 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D3E2AE516B000C50D44 /* SplashViewController.swift */; };
+		39A83ACC2AE55A430053D488 /* SuperDateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83ACB2AE55A430053D488 /* SuperDateUtil.swift */; };
+		39A83ACF2AE55D000053D488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A83AD12AE55D000053D488 /* Localizable.strings */; };
+		39A83AD62AE55E3F0053D488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A83AD82AE55E3F0053D488 /* InfoPlist.strings */; };
+		39A83ADC2AE562910053D488 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83ADB2AE562910053D488 /* R.generated.swift */; };
+		39A83ADF2AE566FC0053D488 /* SuperUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83ADE2AE566FC0053D488 /* SuperUIColorExtension.swift */; };
+		39A83AE12AE568C90053D488 /* SuperUIThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE02AE568C90053D488 /* SuperUIThemeExtension.swift */; };
+		39A83AE42AE56BD20053D488 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE32AE56BD20053D488 /* BaseController.swift */; };
+		39A83AE62AE56C5A0053D488 /* BaseCommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */; };
+		39A83AE82AE56D210053D488 /* BaseLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE72AE56D210053D488 /* BaseLogicController.swift */; };
+		39A83AEA2AE57D4B0053D488 /* BaseTitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */; };
 		71ED5D11F9190E2C3C78A485 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9C178D2240B0B91CA5E205 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */; };
 		D2DD3B48FFB4BAD592153176 /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4756C60DFC1E250203EFD3D9 /* Pods_MyCloudMusicTests.framework */; };
 		F99ECE9A4A1C64859B9A34C8 /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395CA41DAEB1C7AC2797C286 /* Pods_MyCloudMusic.framework */; };
@@ -50,6 +60,19 @@
 		392D2D2E2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloudMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		392D2D3E2AE516B000C50D44 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		395CA41DAEB1C7AC2797C286 /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A83ACB2AE55A430053D488 /* SuperDateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDateUtil.swift; sourceTree = "<group>"; };
+		39A83AD02AE55D000053D488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39A83AD22AE55D0A0053D488 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		39A83AD32AE55D0A0053D488 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		39A83AD72AE55E3F0053D488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39A83AD92AE55E4A0053D488 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		39A83ADB2AE562910053D488 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		39A83ADE2AE566FC0053D488 /* SuperUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperUIColorExtension.swift; sourceTree = "<group>"; };
+		39A83AE02AE568C90053D488 /* SuperUIThemeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperUIThemeExtension.swift; sourceTree = "<group>"; };
+		39A83AE32AE56BD20053D488 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCommonController.swift; sourceTree = "<group>"; };
+		39A83AE72AE56D210053D488 /* BaseLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLogicController.swift; sourceTree = "<group>"; };
+		39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTitleController.swift; sourceTree = "<group>"; };
 		4756C60DFC1E250203EFD3D9 /* Pods_MyCloudMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3DC0EEF31FDF4397705880 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		67909AD00CFB514C2105F089 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,11 +145,17 @@
 		392D2D0A2AE5101100C50D44 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				39A83AE22AE56BB10053D488 /* Controller */,
+				39A83ADD2AE566C10053D488 /* Config */,
+				39A83AC92AE559B70053D488 /* Vender */,
 				392D2D3B2AE5168100C50D44 /* Component */,
 				392D2D0B2AE5101100C50D44 /* AppDelegate.swift */,
+				39A83ADB2AE562910053D488 /* R.generated.swift */,
 				392D2D142AE5101300C50D44 /* Assets.xcassets */,
 				392D2D162AE5101300C50D44 /* LaunchScreen.storyboard */,
 				392D2D192AE5101300C50D44 /* Info.plist */,
+				39A83AD12AE55D000053D488 /* Localizable.strings */,
+				39A83AD82AE55E3F0053D488 /* InfoPlist.strings */,
 			);
 			path = MyCloudMusic;
 			sourceTree = "<group>";
@@ -172,6 +201,42 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		39A83AC92AE559B70053D488 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				39A83ACA2AE55A230053D488 /* SuperSwift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		39A83ACA2AE55A230053D488 /* SuperSwift */ = {
+			isa = PBXGroup;
+			children = (
+				39A83ACB2AE55A430053D488 /* SuperDateUtil.swift */,
+			);
+			path = SuperSwift;
+			sourceTree = "<group>";
+		};
+		39A83ADD2AE566C10053D488 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				39A83ADE2AE566FC0053D488 /* SuperUIColorExtension.swift */,
+				39A83AE02AE568C90053D488 /* SuperUIThemeExtension.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		39A83AE22AE56BB10053D488 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A83AE32AE56BD20053D488 /* BaseController.swift */,
+				39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */,
+				39A83AE72AE56D210053D488 /* BaseLogicController.swift */,
+				39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		84DA677397A17740E347934A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +258,7 @@
 			buildConfigurationList = 392D2D322AE5101400C50D44 /* Build configuration list for PBXNativeTarget "MyCloudMusic" */;
 			buildPhases = (
 				993D9983F4C873C61B7CF640 /* [CP] Check Pods Manifest.lock */,
+				39A83ADA2AE561000053D488 /* ShellScript */,
 				392D2D042AE5101100C50D44 /* Sources */,
 				392D2D052AE5101100C50D44 /* Frameworks */,
 				392D2D062AE5101100C50D44 /* Resources */,
@@ -276,6 +342,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 392D2CFF2AE5101100C50D44;
 			productRefGroup = 392D2D092AE5101100C50D44 /* Products */;
@@ -295,6 +362,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				392D2D182AE5101300C50D44 /* LaunchScreen.storyboard in Resources */,
+				39A83AD62AE55E3F0053D488 /* InfoPlist.strings in Resources */,
+				39A83ACF2AE55D000053D488 /* Localizable.strings in Resources */,
 				392D2D152AE5101300C50D44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +385,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		39A83ADA2AE561000053D488 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		74C6A2026935C959449A1ADC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,7 +512,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				392D2D0C2AE5101100C50D44 /* AppDelegate.swift in Sources */,
+				39A83AEA2AE57D4B0053D488 /* BaseTitleController.swift in Sources */,
+				39A83AE12AE568C90053D488 /* SuperUIThemeExtension.swift in Sources */,
+				39A83AE42AE56BD20053D488 /* BaseController.swift in Sources */,
+				39A83AE82AE56D210053D488 /* BaseLogicController.swift in Sources */,
+				39A83ACC2AE55A430053D488 /* SuperDateUtil.swift in Sources */,
+				39A83ADF2AE566FC0053D488 /* SuperUIColorExtension.swift in Sources */,
+				39A83AE62AE56C5A0053D488 /* BaseCommonController.swift in Sources */,
 				392D2D3F2AE516B000C50D44 /* SplashViewController.swift in Sources */,
+				39A83ADC2AE562910053D488 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +561,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				392D2D172AE5101300C50D44 /* Base */,
+				39A83AD22AE55D0A0053D488 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		39A83AD12AE55D000053D488 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A83AD02AE55D000053D488 /* en */,
+				39A83AD32AE55D0A0053D488 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		39A83AD82AE55E3F0053D488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A83AD72AE55E3F0053D488 /* en */,
+				39A83AD92AE55E4A0053D488 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -477,6 +592,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -540,6 +656,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

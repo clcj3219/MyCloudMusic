@@ -7,6 +7,10 @@ target 'MyCloudMusic' do
 
   # Pods for MyCloudMusic
   pod 'TangramKit'
+  
+  pod 'R.swift'
+  
+  pod 'DynamicColor'
 
   target 'MyCloudMusicTests' do
     inherit! :search_paths
