@@ -24,6 +24,10 @@
 		39A83AE62AE56C5A0053D488 /* BaseCommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */; };
 		39A83AE82AE56D210053D488 /* BaseLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE72AE56D210053D488 /* BaseLogicController.swift */; };
 		39A83AEA2AE57D4B0053D488 /* BaseTitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */; };
+		39A83AF12AE585830053D488 /* TermServiceDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AF02AE585830053D488 /* TermServiceDialogController.swift */; };
+		39A83AF42AE58A8A0053D488 /* ViewFactoryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AF32AE58A8A0053D488 /* ViewFactoryUtil.swift */; };
+		39A83AF62AE58B260053D488 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AF52AE58B260053D488 /* Constant.swift */; };
+		39A83AFA2AE598C60053D488 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83AF92AE598C60053D488 /* GuideController.swift */; };
 		71ED5D11F9190E2C3C78A485 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9C178D2240B0B91CA5E205 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */; };
 		D2DD3B48FFB4BAD592153176 /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4756C60DFC1E250203EFD3D9 /* Pods_MyCloudMusicTests.framework */; };
 		F99ECE9A4A1C64859B9A34C8 /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395CA41DAEB1C7AC2797C286 /* Pods_MyCloudMusic.framework */; };
@@ -73,6 +77,11 @@
 		39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCommonController.swift; sourceTree = "<group>"; };
 		39A83AE72AE56D210053D488 /* BaseLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLogicController.swift; sourceTree = "<group>"; };
 		39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTitleController.swift; sourceTree = "<group>"; };
+		39A83AED2AE581FD0053D488 /* MyCloudMusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCloudMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		39A83AF02AE585830053D488 /* TermServiceDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermServiceDialogController.swift; sourceTree = "<group>"; };
+		39A83AF32AE58A8A0053D488 /* ViewFactoryUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactoryUtil.swift; sourceTree = "<group>"; };
+		39A83AF52AE58B260053D488 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		39A83AF92AE598C60053D488 /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 		4756C60DFC1E250203EFD3D9 /* Pods_MyCloudMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3DC0EEF31FDF4397705880 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		67909AD00CFB514C2105F089 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +154,7 @@
 		392D2D0A2AE5101100C50D44 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				39A83AF22AE58A800053D488 /* Util */,
 				39A83AE22AE56BB10053D488 /* Controller */,
 				39A83ADD2AE566C10053D488 /* Config */,
 				39A83AC92AE559B70053D488 /* Vender */,
@@ -156,6 +166,7 @@
 				392D2D192AE5101300C50D44 /* Info.plist */,
 				39A83AD12AE55D000053D488 /* Localizable.strings */,
 				39A83AD82AE55E3F0053D488 /* InfoPlist.strings */,
+				39A83AED2AE581FD0053D488 /* MyCloudMusic-Bridging-Header.h */,
 			);
 			path = MyCloudMusic;
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 		392D2D3B2AE5168100C50D44 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				39A83AF72AE598850053D488 /* Guide */,
 				392D2D3C2AE5168A00C50D44 /* Splash */,
 			);
 			path = Component;
@@ -197,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				392D2D3E2AE516B000C50D44 /* SplashViewController.swift */,
+				39A83AF02AE585830053D488 /* TermServiceDialogController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,6 +246,31 @@
 				39A83AE52AE56C5A0053D488 /* BaseCommonController.swift */,
 				39A83AE72AE56D210053D488 /* BaseLogicController.swift */,
 				39A83AE92AE57D4B0053D488 /* BaseTitleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		39A83AF22AE58A800053D488 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				39A83AF32AE58A8A0053D488 /* ViewFactoryUtil.swift */,
+				39A83AF52AE58B260053D488 /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		39A83AF72AE598850053D488 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				39A83AF82AE598960053D488 /* Controller */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		39A83AF82AE598960053D488 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A83AF92AE598C60053D488 /* GuideController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +362,7 @@
 				TargetAttributes = {
 					392D2D072AE5101100C50D44 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					392D2D1D2AE5101400C50D44 = {
 						CreatedOnToolsVersion = 15.0;
@@ -512,12 +551,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				392D2D0C2AE5101100C50D44 /* AppDelegate.swift in Sources */,
+				39A83AF42AE58A8A0053D488 /* ViewFactoryUtil.swift in Sources */,
 				39A83AEA2AE57D4B0053D488 /* BaseTitleController.swift in Sources */,
 				39A83AE12AE568C90053D488 /* SuperUIThemeExtension.swift in Sources */,
 				39A83AE42AE56BD20053D488 /* BaseController.swift in Sources */,
 				39A83AE82AE56D210053D488 /* BaseLogicController.swift in Sources */,
 				39A83ACC2AE55A430053D488 /* SuperDateUtil.swift in Sources */,
 				39A83ADF2AE566FC0053D488 /* SuperUIColorExtension.swift in Sources */,
+				39A83AF12AE585830053D488 /* TermServiceDialogController.swift in Sources */,
+				39A83AF62AE58B260053D488 /* Constant.swift in Sources */,
+				39A83AFA2AE598C60053D488 /* GuideController.swift in Sources */,
 				39A83AE62AE56C5A0053D488 /* BaseCommonController.swift in Sources */,
 				392D2D3F2AE516B000C50D44 /* SplashViewController.swift in Sources */,
 				39A83ADC2AE562910053D488 /* R.generated.swift in Sources */,
@@ -714,6 +757,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84F8R9TAQN;
@@ -733,6 +777,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiwen.MyCloudMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -744,6 +790,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84F8R9TAQN;
@@ -763,6 +810,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiwen.MyCloudMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

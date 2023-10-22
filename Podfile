@@ -11,6 +11,8 @@ target 'MyCloudMusic' do
   pod 'R.swift'
   
   pod 'DynamicColor'
+  
+  pod "QMUIKit"
 
   target 'MyCloudMusicTests' do
     inherit! :search_paths

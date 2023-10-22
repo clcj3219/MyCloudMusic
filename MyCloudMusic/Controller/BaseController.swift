@@ -11,7 +11,10 @@ class BaseController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        initDatum()
+        initViews()
+        initListeners()
     }
     
     func initViews() {

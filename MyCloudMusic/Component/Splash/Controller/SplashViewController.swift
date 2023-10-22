@@ -16,13 +16,6 @@ class SplashViewController: BaseLogicController {
         
         self.initRelativeLayoutSafeArea()
         
-//        let container = TGRelativeLayout()
-//        container.tg_top.equal(TGLayoutPos.tg_safeAreaMargin)
-//        container.tg_leading.equal(TGLayoutPos.tg_safeAreaMargin)
-//        container.tg_trailing.equal(TGLayoutPos.tg_safeAreaMargin)
-//        container.tg_bottom.equal(TGLayoutPos.tg_safeAreaMargin)
-//        view.addSubview(container)
-        
         // banner
         let bannerView = UIImageView()
         bannerView.tg_width.equal(263)
@@ -73,5 +66,28 @@ class SplashViewController: BaseLogicController {
         logoContainerView.addSubview(logoText)
         
         container.addSubview(logoContainerView)
+        
     }
+    
+    override func initDatum() {
+        super.initDatum()
+        showTermsServiceAgreementDialog()
+    }
+    
+    func showTermsServiceAgreementDialog() {
+        dialogController.show()
+    }
+    
+    @objc func primaryClick() {
+        dialogController.hide()
+        
+        AppDelegate.shared.toGuide()
+    }
+    
+    lazy var dialogController: TermServiceDialogController = {
+        let r = TermServiceDialogController()
+        r.titleView.text = R.string.localizable.noticeOfTermsOfServiceAndPrivacyAgreement()
+        r.primaryButton.addTarget(self, action: #selector(primaryClick), for: .touchUpInside)
+        return r
+    }()
 }

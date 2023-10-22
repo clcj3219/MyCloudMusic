@@ -84,4 +84,9 @@ class BaseLogicController: BaseCommonController {
         superFooterContainer.addSubview(superFooterContentContainer)
         rootController.addSubview(superFooterContainer)
     }
+    
+    override func initViews() {
+        super.initViews()
+        setBackgroundColor(.colorBackground)
+    }
 }
