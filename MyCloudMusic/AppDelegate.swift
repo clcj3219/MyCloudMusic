@@ -32,6 +32,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setRootViewController(r)
     }
     
+    /// 跳转到首页
+    func toMain() {
+        let r = UINavigationController(rootViewController: MainController())
+        setRootViewController(r)
+    }
+    
+    /// 跳转到登录
+    func toLogin() {
+        toMain()
+        
+        DispatchQueue.main.async {
+            NotificationCenter.default.post(name: NSNotification.Name("EVENT_LOGIN_CLICK"), object: nil)
+        }
+        
+    }
+    
     func setRootViewController(_ data: UIViewController) {
         window!.rootViewController = data
     }

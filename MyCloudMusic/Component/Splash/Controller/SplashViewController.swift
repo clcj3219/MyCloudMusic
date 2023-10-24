@@ -71,9 +71,22 @@ class SplashViewController: BaseLogicController {
     
     override func initDatum() {
         super.initDatum()
-        showTermsServiceAgreementDialog()
+        if DefaultPreferenceUtil.isAcceptTermsServiceAgreement() {
+            prepareNext()
+        } else {
+            showTermsServiceAgreementDialog()
+        }
     }
     
+    func prepareNext() {
+        next()
+    }
+    
+    @objc func next() {
+        print("next")
+        AppDelegate.shared.toGuide()
+    }
+ 
     func showTermsServiceAgreementDialog() {
         dialogController.show()
     }
@@ -81,6 +94,7 @@ class SplashViewController: BaseLogicController {
     @objc func primaryClick() {
         dialogController.hide()
         
+        DefaultPreferenceUtil.setAcceptTermsServiceAgreement(true)
         AppDelegate.shared.toGuide()
     }
     

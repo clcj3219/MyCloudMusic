@@ -9,3 +9,5 @@
 ErrorNetworkUnknownHost = "找不到服务器";
 
 NoticeOfTermsOfServiceAndPrivacyAgreement = "服务条款和隐私协议提示";
+
+LoginOrRegister = "登录";

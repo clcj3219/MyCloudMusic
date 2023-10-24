@@ -97,5 +97,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5B8CBA4-7EC6-4BD4-B044-237D5DBF9EDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyCloudMusic/Component/Guide/Controller/GuideController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "enterClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5B8CBA4-7EC6-4BD4-B044-237D5DBF9EDE - 9cf536af64a9f41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MyCloudMusic.GuideController.enterClick(__C.QMUIButton) -&gt; ()"
+                  moduleName = "MyCloudMusic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yw.hao/Documents/ios/MyCloudMusic/MyCloudMusic/Component/Guide/Controller/GuideController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E5B8CBA4-7EC6-4BD4-B044-237D5DBF9EDE - 9cf536af64a9f41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MyCloudMusic.GuideController.enterClick(__C.QMUIButton) -&gt; ()"
+                  moduleName = "MyCloudMusic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yw.hao/Documents/ios/MyCloudMusic/MyCloudMusic/Component/Guide/Controller/GuideController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

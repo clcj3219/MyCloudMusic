@@ -1,5 +1,14 @@
 PODS:
+  - Alamofire (5.8.0)
   - DynamicColor (5.0.1)
+  - HandyJSON (5.0.2)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - "NSObject+Rx (5.2.2)":
+    - RxSwift (~> 6.2)
   - QMUIKit (4.7.0):
     - QMUIKit/QMUIComponents (= 4.7.0)
     - QMUIKit/QMUICore (= 4.7.0)
@@ -297,27 +306,47 @@ PODS:
   - QMUIKit/QMUIResources (4.7.0)
   - QMUIKit/QMUIWeakObjectContainer (4.7.0)
   - R.swift (7.3.2)
+  - RxSwift (6.6.0)
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
   - TangramKit (1.4.2)
 
 DEPENDENCIES:
   - DynamicColor
+  - HandyJSON
+  - Moya/RxSwift
+  - "NSObject+Rx"
   - QMUIKit
   - R.swift
+  - SDWebImage
   - TangramKit
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - DynamicColor
+    - HandyJSON
+    - Moya
+    - "NSObject+Rx"
     - QMUIKit
     - R.swift
+    - RxSwift
+    - SDWebImage
     - TangramKit
 
 SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
   DynamicColor: d049834ef86d8ecf150b0ca1ebe54ee733a0ec22
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
   QMUIKit: 2fc09ba9a31a44a4081916ed4c41467bac798821
   R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
   TangramKit: aad3ab8f9617418c9da96d59cddd71134ae8af83
 
-PODFILE CHECKSUM: 3e9caffb3448796aba9d835bfc9805a9bd57c7b7
+PODFILE CHECKSUM: ad18c0927123cad769a1b89ee0b925023f4ad330
 
 COCOAPODS: 1.11.2

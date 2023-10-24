@@ -14,6 +14,16 @@
 		392D2D2D2AE5101400C50D44 /* MyCloudMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D2C2AE5101400C50D44 /* MyCloudMusicUITests.swift */; };
 		392D2D2F2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D2E2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift */; };
 		392D2D3F2AE516B000C50D44 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392D2D3E2AE516B000C50D44 /* SplashViewController.swift */; };
+		39A7F66E2AE6B70A00E677D7 /* DefaultPreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F66D2AE6B70A00E677D7 /* DefaultPreferenceUtil.swift */; };
+		39A7F6732AE6B9F300E677D7 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6722AE6B9F300E677D7 /* MainController.swift */; };
+		39A7F6772AE6C25900E677D7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6762AE6C25900E677D7 /* LoginController.swift */; };
+		39A7F6792AE6D27700E677D7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6782AE6D27700E677D7 /* Config.swift */; };
+		39A7F67C2AE6D4A400E677D7 /* DefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F67B2AE6D4A400E677D7 /* DefaultService.swift */; };
+		39A7F6802AE6D50E00E677D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F67F2AE6D50E00E677D7 /* User.swift */; };
+		39A7F6822AE6D6BD00E677D7 /* ParamUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6812AE6D6BD00E677D7 /* ParamUtil.swift */; };
+		39A7F6852AE6DE5D00E677D7 /* SheetListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6842AE6DE5D00E677D7 /* SheetListResponse.swift */; };
+		39A7F6872AE6DF0300E677D7 /* PageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F6862AE6DF0300E677D7 /* PageResponse.swift */; };
+		39A7F68B2AE6DF6600E677D7 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F68A2AE6DF6600E677D7 /* Sheet.swift */; };
 		39A83ACC2AE55A430053D488 /* SuperDateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A83ACB2AE55A430053D488 /* SuperDateUtil.swift */; };
 		39A83ACF2AE55D000053D488 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A83AD12AE55D000053D488 /* Localizable.strings */; };
 		39A83AD62AE55E3F0053D488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A83AD82AE55E3F0053D488 /* InfoPlist.strings */; };
@@ -64,6 +74,16 @@
 		392D2D2E2AE5101400C50D44 /* MyCloudMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloudMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		392D2D3E2AE516B000C50D44 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		395CA41DAEB1C7AC2797C286 /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A7F66D2AE6B70A00E677D7 /* DefaultPreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPreferenceUtil.swift; sourceTree = "<group>"; };
+		39A7F6722AE6B9F300E677D7 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		39A7F6762AE6C25900E677D7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		39A7F6782AE6D27700E677D7 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		39A7F67B2AE6D4A400E677D7 /* DefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultService.swift; sourceTree = "<group>"; };
+		39A7F67F2AE6D50E00E677D7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		39A7F6812AE6D6BD00E677D7 /* ParamUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamUtil.swift; sourceTree = "<group>"; };
+		39A7F6842AE6DE5D00E677D7 /* SheetListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetListResponse.swift; sourceTree = "<group>"; };
+		39A7F6862AE6DF0300E677D7 /* PageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResponse.swift; sourceTree = "<group>"; };
+		39A7F68A2AE6DF6600E677D7 /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
 		39A83ACB2AE55A430053D488 /* SuperDateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDateUtil.swift; sourceTree = "<group>"; };
 		39A83AD02AE55D000053D488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		39A83AD22AE55D0A0053D488 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -154,6 +174,8 @@
 		392D2D0A2AE5101100C50D44 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				39A7F6832AE6DE4D00E677D7 /* Model */,
+				39A7F67A2AE6D48600E677D7 /* Service */,
 				39A83AF22AE58A800053D488 /* Util */,
 				39A83AE22AE56BB10053D488 /* Controller */,
 				39A83ADD2AE566C10053D488 /* Config */,
@@ -191,6 +213,10 @@
 		392D2D3B2AE5168100C50D44 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				39A7F6882AE6DF5500E677D7 /* Sheet */,
+				39A7F67D2AE6D4FA00E677D7 /* User */,
+				39A7F6742AE6C23F00E677D7 /* Login */,
+				39A7F6702AE6B9D400E677D7 /* Main */,
 				39A83AF72AE598850053D488 /* Guide */,
 				392D2D3C2AE5168A00C50D44 /* Splash */,
 			);
@@ -214,6 +240,87 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		39A7F6702AE6B9D400E677D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6712AE6B9DF00E677D7 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		39A7F6712AE6B9DF00E677D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6722AE6B9F300E677D7 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		39A7F6742AE6C23F00E677D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6752AE6C24600E677D7 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		39A7F6752AE6C24600E677D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6762AE6C25900E677D7 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		39A7F67A2AE6D48600E677D7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F67B2AE6D4A400E677D7 /* DefaultService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		39A7F67D2AE6D4FA00E677D7 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F67E2AE6D4FF00E677D7 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		39A7F67E2AE6D4FF00E677D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F67F2AE6D50E00E677D7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A7F6832AE6DE4D00E677D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6842AE6DE5D00E677D7 /* SheetListResponse.swift */,
+				39A7F6862AE6DF0300E677D7 /* PageResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A7F6882AE6DF5500E677D7 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F6892AE6DF5A00E677D7 /* Model */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		39A7F6892AE6DF5A00E677D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F68A2AE6DF6600E677D7 /* Sheet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		39A83AC92AE559B70053D488 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +342,7 @@
 			children = (
 				39A83ADE2AE566FC0053D488 /* SuperUIColorExtension.swift */,
 				39A83AE02AE568C90053D488 /* SuperUIThemeExtension.swift */,
+				39A7F6782AE6D27700E677D7 /* Config.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -255,6 +363,8 @@
 			children = (
 				39A83AF32AE58A8A0053D488 /* ViewFactoryUtil.swift */,
 				39A83AF52AE58B260053D488 /* Constant.swift */,
+				39A7F66D2AE6B70A00E677D7 /* DefaultPreferenceUtil.swift */,
+				39A7F6812AE6D6BD00E677D7 /* ParamUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -554,11 +664,21 @@
 				39A83AF42AE58A8A0053D488 /* ViewFactoryUtil.swift in Sources */,
 				39A83AEA2AE57D4B0053D488 /* BaseTitleController.swift in Sources */,
 				39A83AE12AE568C90053D488 /* SuperUIThemeExtension.swift in Sources */,
+				39A7F67C2AE6D4A400E677D7 /* DefaultService.swift in Sources */,
 				39A83AE42AE56BD20053D488 /* BaseController.swift in Sources */,
 				39A83AE82AE56D210053D488 /* BaseLogicController.swift in Sources */,
 				39A83ACC2AE55A430053D488 /* SuperDateUtil.swift in Sources */,
+				39A7F6822AE6D6BD00E677D7 /* ParamUtil.swift in Sources */,
+				39A7F6802AE6D50E00E677D7 /* User.swift in Sources */,
 				39A83ADF2AE566FC0053D488 /* SuperUIColorExtension.swift in Sources */,
+				39A7F6852AE6DE5D00E677D7 /* SheetListResponse.swift in Sources */,
+				39A7F6732AE6B9F300E677D7 /* MainController.swift in Sources */,
+				39A7F66E2AE6B70A00E677D7 /* DefaultPreferenceUtil.swift in Sources */,
 				39A83AF12AE585830053D488 /* TermServiceDialogController.swift in Sources */,
+				39A7F68B2AE6DF6600E677D7 /* Sheet.swift in Sources */,
+				39A7F6792AE6D27700E677D7 /* Config.swift in Sources */,
+				39A7F6772AE6C25900E677D7 /* LoginController.swift in Sources */,
+				39A7F6872AE6DF0300E677D7 /* PageResponse.swift in Sources */,
 				39A83AF62AE58B260053D488 /* Constant.swift in Sources */,
 				39A83AFA2AE598C60053D488 /* GuideController.swift in Sources */,
 				39A83AE62AE56C5A0053D488 /* BaseCommonController.swift in Sources */,
