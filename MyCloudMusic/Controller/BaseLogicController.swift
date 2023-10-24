@@ -40,6 +40,21 @@ class BaseLogicController: BaseCommonController {
         initFootContainer()
     }
     
+    /// 初始化垂直方向LinearLayout容器，四边堵在安全区内
+    func initLinearLayoutSafeArea() {
+        initLinearLayout()
+        
+        initHeaderContainer()
+        
+        container = TGLinearLayout(.vert)
+        container.tg_width.equal(.fill)
+        container.tg_height.equal(.fill)
+        container.backgroundColor = .clear
+        rootController.addSubview(container)
+        
+        initFootContainer()
+    }
+    
     func initLinearLayout() {
         rootController = TGLinearLayout(.vert)
         rootController.tg_width.equal(.fill)

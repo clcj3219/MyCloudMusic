@@ -31,6 +31,17 @@ class ViewFactoryUtil {
         return r
     }
     
+    static func primaryOutlineButton() -> QMUIButton {
+        let r = primaryButton()
+        r.layer.cornerRadius = SMALL_RADIUS
+        r.tintColor = .black
+        r.layer.borderWidth = 1
+        r.layer.borderColor = UIColor.black.cgColor
+        r.backgroundColor = .white
+        r.setTitleColor(.primaryColor, for: .normal)
+        return r
+    }
+    
     
     /// 链接按钮
     /// - Returns: <#description#>

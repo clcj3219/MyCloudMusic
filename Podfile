@@ -13,6 +13,14 @@ target 'MyCloudMusic' do
   pod 'DynamicColor'
   
   pod "QMUIKit"
+  
+  pod "Moya/RxSwift"
+  
+  pod "NSObject+Rx"
+  
+  pod "SDWebImage"
+  
+  pod "HandyJSON"
 
   target 'MyCloudMusicTests' do
     inherit! :search_paths

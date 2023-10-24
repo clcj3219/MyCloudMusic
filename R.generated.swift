@@ -80,7 +80,7 @@ struct _R {
       let source: RswiftResources.StringResource.Source
     }
 
-    /// This `_R.string.localizable` struct is generated, and contains static references to 2 localization keys.
+    /// This `_R.string.localizable` struct is generated, and contains static references to 3 localization keys.
     struct localizable {
       let source: RswiftResources.StringResource.Source
 
@@ -90,6 +90,13 @@ struct _R {
       ///
       /// Locales: en, zh-Hans
       var errorNetworkUnknownHost: RswiftResources.StringResource { .init(key: "ErrorNetworkUnknownHost", tableName: "Localizable", source: source, developmentValue: "Server not found", comment: nil) }
+
+      /// en translation: login
+      ///
+      /// Key: LoginOrRegister
+      ///
+      /// Locales: en, zh-Hans
+      var loginOrRegister: RswiftResources.StringResource { .init(key: "LoginOrRegister", tableName: "Localizable", source: source, developmentValue: "login", comment: nil) }
 
       /// en translation: Notice of Terms of Service and Privacy agreement
       ///
